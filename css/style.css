@@ -1,9 +1,20 @@
 *{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
+#pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   
 }
+ #img-text{
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+ }
+
 h1 {
   font-size: 700%;
   padding: 50px;
@@ -14,7 +25,7 @@ h1 {
 }
 
 img {
-  margin: 6%;
+  margin: 10%;
   width: 300px;
   height: 300px;
   border-radius: 150px;
@@ -32,21 +43,10 @@ footer {
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
-  header {
-    background: #772014;
-  }
+  h1, footer {
+  background: #772014;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-
-/* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
-  nav {
-    background-color: #bb8588;
-  }
-}
-
-/* Small smartphones - image placeholders change color */
-@media screen and (max-width: 576px) {
-  .sample-img {
-    background-color: #8ac4ff;
-  }
 }
