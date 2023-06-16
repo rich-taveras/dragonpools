@@ -30,6 +30,7 @@ img {
   height: 300px;
   border-radius: 150px;
   display: inline;
+  cursor: grab;
 }
 
 footer {
