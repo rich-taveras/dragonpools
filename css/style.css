@@ -23,35 +23,35 @@ font-size: large;
 margin-right: 10px;
 }
 
-.section-container {
-  width: 100%;
+img {
   
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  
+  cursor: grab;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.section-container {
   border: 2px solid red;
   display: flex;
-  flex-direction: row;
-  justify-content: start;
-  position: relative;
-  
-  
-}
-.section-container img {
-width: 20%;
-z-index: 1;
-border-radius: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
-justify-content: center;
+
+  
   
 }
+
+
 .section-container h2 {
   position: absolute;
   z-index: 1;
   font-size: 100%;
 }
 
-img {
-  width: 50%;
-  position: relative;
-}
+
 
 footer {
   width: 100%;
@@ -59,11 +59,13 @@ footer {
   border: 2px solid red;
   text-align: center;
   margin-top: 20pt;
+  background: #13293d;
   display: flex;
 }
 
 .footnote {
-margin-top: 70pt;
-margin-left: 20pt;
-justify-content: flex-end;
+  padding: 20px;
+  text-align: center;
+  
+  color: #fff;
 }
