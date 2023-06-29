@@ -1,21 +1,14 @@
 *{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#pictures {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  
-}
- #img-text{
-  font-size: larger;
-  font-weight: bold;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around
- }
 
-h1 {
+header, footer {
+  width: 100%;
+  border: 2px solid red;
+}
+
+header h1 {
+  border: 2px solid red;
   font-size: 700%;
   padding: 50px;
   text-align: center;
@@ -24,30 +17,53 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+nav ul{
+text-align: end;
+font-size: large;
+margin-right: 10px;
+}
+
+.section-container {
+  width: 100%;
+  
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  position: relative;
+  
+  
+}
+.section-container img {
+width: 20%;
+z-index: 1;
+border-radius: 100%;
+
+justify-content: center;
+  
+}
+.section-container h2 {
+  position: absolute;
+  z-index: 1;
+  font-size: 100%;
+}
+
 img {
-  margin: 10%;
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  display: inline;
-  cursor: grab;
+  width: 50%;
+  position: relative;
 }
 
 footer {
-  padding: 20px;
+  width: 100%;
+  height: 10rem;
+  border: 2px solid red;
   text-align: center;
-  background: #13293d;
-  color: #fff;
-}
-
-/* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
-
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-  h1, footer {
-  background: #772014;
+  margin-top: 20pt;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
+
+.footnote {
+margin-top: 70pt;
+margin-left: 20pt;
+justify-content: flex-end;
 }
