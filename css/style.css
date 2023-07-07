@@ -1,6 +1,4 @@
-:root{
-  --color-primary: #093A3E;
-  --color-primary-dark: #001011;
-
-  --color-secondary: 
-}
+@import "./color.css";
+@import "./common.css";
+@import"./header.css";
+@import"./navbar.css";
