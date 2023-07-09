@@ -1,23 +1,22 @@
 @import "./color.css";
 @import "./common.css";
-@import"./header.css";
-@import"./navbar.css";
-@import"./aside.css";
+@import "./header.css";
+@import "./navbar.css";
+@import "./aside.css";
+@import "./content.css";
 
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
 }
 
-
-.main{
+.main {
   flex: 70%;
-  height: 400px;
-  background-color: skyblue;
-}
+  }
 
 @media screen and (max-width: 700px) {
-  .navbar, .row {
+  .navbar,
+  .row {
     flex-direction: column;
   }
 }
