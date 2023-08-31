@@ -1,10 +1,13 @@
 @import "./color.css";
 @import "./common.css";
 @import "./header.css";
-@import "./navbar.css";
 @import "./aside.css";
 @import "./content.css";
+@import "./contactForm.css";
 
+body{
+  margin: 10px;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +17,23 @@
   flex: 70%;
   }
 
-@media screen and (max-width: 700px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary);
+  }
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: var(--color-primary-dark);
+  }
+
+@media screen and (max-width: 768px) {
   .navbar,
   .row {
     flex-direction: column;

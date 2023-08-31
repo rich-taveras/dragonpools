@@ -1,0 +1,58 @@
+/* footer */
+footer p {
+  padding: 10px;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+footer .social-icons {
+  text-align: center;
+}
+
+.social-icons a {
+  color: var(--color-primary);
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+a:hover {
+  color: var(--color-gray-dark);
+}
+
+/* contact section*/
+label {
+  color: var(--color-primary-dark);
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--color-primary);
+}
+
+/* copyright */
+footer .copyright{
+  color: black;
+  font-size: 10pt;
+  margin: 10px;
+
+}
