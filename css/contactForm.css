@@ -20,8 +20,9 @@ a:hover {
 }
 
 /* contact section*/
-label {
-  color: var(--color-primary-dark);
+label, #contact h1, #contact p{
+  color: var(--color-primary);
+ text-align: center;
 }
 input[type="text"],
 select,
