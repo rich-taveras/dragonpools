@@ -1,0 +1,24 @@
+/* Estilo específico para centrar el carrusel en la pantalla */
+#carouselExample {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.carousel-inner {
+    text-align: center;
+    width: 50%;
+}
+
+.carousel-item {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: auto;
+    bottom: 0;
+}

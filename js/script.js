@@ -1,11 +1,8 @@
-$(document).ready(function() {
-  $('a[href^="#"]').on('click', function(event) {
-    var target = $(this.getAttribute('href'));
-    if (target.length) {
-      event.preventDefault();
-      $('html, body').stop().animate({
-        scrollTop: target.offset().top
-      }, 1000); // Velocidad de desplazamiento en milisegundos
-    }
+document.addEventListener('DOMContentLoaded', function () {
+  var myCarousel = document.querySelector('#carouselExample');
+  var carousel = new bootstrap.Carousel(myCarousel, {
+      interval: 2000 // Cambio automático cada 5 segundos (ajusta el valor según tus preferencias)
   });
 });
+
+
